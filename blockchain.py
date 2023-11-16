@@ -49,3 +49,6 @@ class Blockchain:
         new_post = Post(author, content, timestamp)
         self.users[author].posts.append(new_post)
         self.add_block(new_post)
+
+        # Gossip the new post to random peers
+        gossip_transaction(new_post)
