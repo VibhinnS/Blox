@@ -1,4 +1,3 @@
-import math
 from typing import Any
 from Crypto.Hash import SHA256
 

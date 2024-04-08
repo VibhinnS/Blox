@@ -47,4 +47,3 @@ def fill_set(list_of_nodes) -> list[Node]:
             list_of_nodes.append(list_of_nodes[-1])
     
     return list_of_nodes
-
